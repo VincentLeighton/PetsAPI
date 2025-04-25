@@ -2,7 +2,7 @@ import express, { Request, Response } from "express";
 import fs from "fs";
 import { randomUUID } from "crypto";
 
-const app = express();
+export const app = express();
 const port = 3000;
 
 interface Pet {
